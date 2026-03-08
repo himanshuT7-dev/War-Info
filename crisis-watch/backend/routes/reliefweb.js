@@ -15,7 +15,7 @@ const REGION_QUERIES = {
 };
 
 // All country names for global queries
-const ALL_COUNTRIES = ['Ukraine', 'Russia', 'Gaza', 'Israel', 'Hamas', 'Lebanon', 'Iran', 'Syria', 'Yemen', 'Sudan', 'Chad', 'Ethiopia'];
+const ALL_COUNTRIES = ['Ukraine', 'Russia', 'Gaza', 'Israel', 'Hamas', 'Lebanon', 'Iran', 'Syria', 'Yemen', 'Sudan', 'Chad', 'Ethiopia', 'Pakistan', 'Iraq', 'United Arab Emirates'];
 
 async function fetchWikiReports(queries, limit = 50) {
     try {
@@ -66,6 +66,9 @@ async function fetchWikiReports(queries, limit = 50) {
                 else if (combined.includes('russia')) country = 'Russia';
                 else if (combined.includes('chad')) country = 'Chad';
                 else if (combined.includes('ethiopia')) country = 'Ethiopia';
+                else if (combined.includes('pakistan')) country = 'Pakistan';
+                else if (combined.includes('iraq') || combined.includes('erbil')) country = 'Iraq';
+                else if (combined.includes('uae') || combined.includes('emirates')) country = 'United Arab Emirates';
 
                 // Determine type from content
                 let disasterType = 'Conflict';

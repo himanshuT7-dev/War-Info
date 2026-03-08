@@ -17,7 +17,10 @@ const COUNTRY_COORDS = {
     'Afghanistan': [34.5, 69.2], 'Mali': [17.6, -2.0],
     'Burkina Faso': [12.4, -1.5], 'Niger': [13.5, 2.1],
     'Nigeria': [9.1, 7.5], 'Mozambique': [-15.0, 40.7],
-    'Colombia': [4.7, -74.1], 'Haiti': [18.5, -72.3]
+    'Colombia': [4.7, -74.1], 'Haiti': [18.5, -72.3],
+    'Pakistan': [30.3753, 69.3451], 'United Arab Emirates': [23.4241, 53.8478],
+    'Saudi Arabia': [23.8859, 45.0792], 'Jordan': [31.2400, 36.5100],
+    'Egypt': [26.8206, 30.8025]
 };
 
 function getJitteredCoords(country) {
