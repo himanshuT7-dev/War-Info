@@ -1,0 +1,95 @@
+
+> frontend@1.0.0 dev
+> vite
+
+
+  VITE v7.3.1  ready in 430 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+9:33:42 AM [vite] (client) hmr update /src/components/TopBar/GlobalStatus.jsx, /src/index.css
+9:33:44 AM [vite] (client) hmr update /src/components/TopBar/GlobalStatus.jsx, /src/index.css
+9:34:26 AM [vite] (client) hmr update /src/App.jsx, /src/index.css
+9:34:34 AM [vite] (client) hmr update /src/App.jsx, /src/index.css
+9:35:03 AM [vite] (client) hmr update /src/App.jsx, /src/index.css
+9:47:17 AM [vite] (client) hmr update /src/index.css, /src/components/Modals/CountryComparisonModal.jsx
+10:07:49 AM [vite] (client) hmr update /src/index.css, /src/components/Modals/CountryComparisonModal.jsx
+11:31:31 AM [vite] http proxy error: /api/flights/states?lamin=44&lomin=22&lamax=53&lomax=42
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+11:31:31 AM [vite] http proxy error: /api/casualties/ukraine
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+11:33:17 AM [vite] (client) hmr update /src/App.jsx, /src/index.css
+11:33:42 AM [vite] (client) hmr update /src/components/Map/CrisisMap.jsx, /src/index.css
+11:34:43 AM [vite] (client) hmr update /src/components/Sidebar/ThreatPanel.jsx, /src/index.css
+11:34:49 AM [vite] (client) hmr update /src/App.jsx, /src/index.css
+11:58:13 AM [vite] (client) hmr update /src/index.css
+11:58:14 AM [vite] Internal server error: Missing opening {
+  Plugin: @tailwindcss/vite:generate:serve
+  File: /Users/vcom/WarInfo/crisis-watch/frontend/src/index.css
+      at Se (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/tailwindcss/dist/chunk-L5IEUH3R.mjs:1:3079)
+      at vf (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/tailwindcss/dist/chunk-L5IEUH3R.mjs:38:1384)
+      at uu (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/@tailwindcss/node/dist/index.mjs:10:3464)
+      at B.generate (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/@tailwindcss/vite/dist/index.mjs:1:5055)
+      at async TransformPluginContext.handler (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/@tailwindcss/vite/dist/index.mjs:1:2719)
+      at async EnvironmentPluginContainer.transform (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/vite/dist/node/chunks/config.js:28797:14)
+      at async loadAndTransform (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/vite/dist/node/chunks/config.js:22670:26)
+      at async viteTransformMiddleware (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/vite/dist/node/chunks/config.js:24542:20)
+12:00:44 PM [vite] vite.config.js changed, restarting server...
+12:00:44 PM [vite] (client) Re-optimizing dependencies because lockfile has changed
+12:00:45 PM [vite] server restarted.
+12:00:48 PM [vite] (client) Pre-transform error: Missing opening {
+  Plugin: @tailwindcss/vite:generate:serve
+  File: /Users/vcom/WarInfo/crisis-watch/frontend/src/index.css
+12:00:52 PM [vite] Internal server error: Missing opening {
+  Plugin: @tailwindcss/vite:generate:serve
+  File: /Users/vcom/WarInfo/crisis-watch/frontend/src/index.css
+      at Se (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/tailwindcss/dist/chunk-L5IEUH3R.mjs:1:3079)
+      at vf (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/tailwindcss/dist/chunk-L5IEUH3R.mjs:38:1384)
+      at uu (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/@tailwindcss/node/dist/index.mjs:10:3464)
+      at B.generate (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/@tailwindcss/vite/dist/index.mjs:1:5055)
+      at TransformPluginContext.handler (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/@tailwindcss/vite/dist/index.mjs:1:2727)
+      at EnvironmentPluginContainer.transform (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/vite/dist/node/chunks/config.js:28797:51)
+      at loadAndTransform (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/vite/dist/node/chunks/config.js:22670:48)
+      at async viteTransformMiddleware (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/vite/dist/node/chunks/config.js:24542:20)
+12:00:52 PM [vite] Internal server error: Missing opening {
+  Plugin: @tailwindcss/vite:generate:serve
+  File: /Users/vcom/WarInfo/crisis-watch/frontend/src/index.css
+      at Se (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/tailwindcss/dist/chunk-L5IEUH3R.mjs:1:3079)
+      at vf (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/tailwindcss/dist/chunk-L5IEUH3R.mjs:38:1384)
+      at uu (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/@tailwindcss/node/dist/index.mjs:10:3464)
+      at B.generate (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/@tailwindcss/vite/dist/index.mjs:1:5055)
+      at TransformPluginContext.handler (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/@tailwindcss/vite/dist/index.mjs:1:2727)
+      at EnvironmentPluginContainer.transform (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/vite/dist/node/chunks/config.js:28797:51)
+      at loadAndTransform (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/vite/dist/node/chunks/config.js:22670:48)
+      at async viteTransformMiddleware (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/vite/dist/node/chunks/config.js:24542:20)
+12:00:53 PM [vite] Internal server error: Missing opening {
+  Plugin: @tailwindcss/vite:generate:serve
+  File: /Users/vcom/WarInfo/crisis-watch/frontend/src/index.css
+      at Se (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/tailwindcss/dist/chunk-L5IEUH3R.mjs:1:3079)
+      at vf (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/tailwindcss/dist/chunk-L5IEUH3R.mjs:38:1384)
+      at uu (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/@tailwindcss/node/dist/index.mjs:10:3464)
+      at B.generate (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/@tailwindcss/vite/dist/index.mjs:1:5055)
+      at TransformPluginContext.handler (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/@tailwindcss/vite/dist/index.mjs:1:2727)
+      at EnvironmentPluginContainer.transform (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/vite/dist/node/chunks/config.js:28797:51)
+      at loadAndTransform (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/vite/dist/node/chunks/config.js:22670:48)
+      at async viteTransformMiddleware (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/vite/dist/node/chunks/config.js:24542:20)
+12:00:53 PM [vite] Internal server error: Missing opening {
+  Plugin: @tailwindcss/vite:generate:serve
+  File: /Users/vcom/WarInfo/crisis-watch/frontend/src/index.css
+      at Se (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/tailwindcss/dist/chunk-L5IEUH3R.mjs:1:3079)
+      at vf (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/tailwindcss/dist/chunk-L5IEUH3R.mjs:38:1384)
+      at uu (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/@tailwindcss/node/dist/index.mjs:10:3464)
+      at B.generate (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/@tailwindcss/vite/dist/index.mjs:1:5055)
+      at TransformPluginContext.handler (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/@tailwindcss/vite/dist/index.mjs:1:2727)
+      at EnvironmentPluginContainer.transform (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/vite/dist/node/chunks/config.js:28797:51)
+      at loadAndTransform (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/vite/dist/node/chunks/config.js:22670:48)
+      at async viteTransformMiddleware (file:///Users/vcom/WarInfo/crisis-watch/frontend/node_modules/vite/dist/node/chunks/config.js:24542:20)
+12:01:24 PM [vite] (client) page reload index.html
+12:02:00 PM [vite] (client) page reload src/main.jsx
+12:03:41 PM [vite] (client) hmr update /src/App.jsx, /src/index.css
+12:03:55 PM [vite] (client) hmr update /src/App.jsx, /src/index.css

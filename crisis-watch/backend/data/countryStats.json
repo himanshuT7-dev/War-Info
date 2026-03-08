@@ -1,0 +1,2333 @@
+{
+    "USA": {
+        "name": "United States",
+        "activePersonnel": "1,390,000",
+        "reservePersonnel": "844,000",
+        "warheads": "5,244",
+        "gdp": "$27.3 Trillion",
+        "budget": "$877 Billion",
+        "tier": "Tier 1 - Global Superpower"
+    },
+    "CHN": {
+        "name": "China",
+        "activePersonnel": "2,000,000",
+        "reservePersonnel": "510,000",
+        "warheads": "500",
+        "gdp": "$17.7 Trillion",
+        "budget": "$292 Billion",
+        "tier": "Tier 1 - Global Superpower"
+    },
+    "RUS": {
+        "name": "Russia",
+        "activePersonnel": "1,320,000",
+        "reservePersonnel": "2,000,000",
+        "warheads": "5,889",
+        "gdp": "$2.0 Trillion",
+        "budget": "$86 Billion",
+        "tier": "Tier 1 - Superpower (Nuclear)"
+    },
+    "GBR": {
+        "name": "United Kingdom",
+        "activePersonnel": "148,000",
+        "reservePersonnel": "80,000",
+        "warheads": "225",
+        "gdp": "$3.3 Trillion",
+        "budget": "$68 Billion",
+        "tier": "Tier 2 - Major Power"
+    },
+    "FRA": {
+        "name": "France",
+        "activePersonnel": "205,000",
+        "reservePersonnel": "35,000",
+        "warheads": "290",
+        "gdp": "$3.0 Trillion",
+        "budget": "$53 Billion",
+        "tier": "Tier 2 - Major Power"
+    },
+    "IND": {
+        "name": "India",
+        "activePersonnel": "1,450,000",
+        "reservePersonnel": "1,155,000",
+        "warheads": "164",
+        "gdp": "$3.7 Trillion",
+        "budget": "$81 Billion",
+        "tier": "Tier 2 - Emerging Superpower"
+    },
+    "PAK": {
+        "name": "Pakistan",
+        "activePersonnel": "654,000",
+        "reservePersonnel": "500,000",
+        "warheads": "170",
+        "gdp": "$338 Billion",
+        "budget": "$10 Billion",
+        "tier": "Tier 3 - Regional Power"
+    },
+    "ISR": {
+        "name": "Israel",
+        "activePersonnel": "170,000",
+        "reservePersonnel": "465,000",
+        "warheads": "90 (Estimated)",
+        "gdp": "$509 Billion",
+        "budget": "$23 Billion",
+        "tier": "Tier 3 - Regional Power"
+    },
+    "IRN": {
+        "name": "Iran",
+        "activePersonnel": "575,000",
+        "reservePersonnel": "350,000",
+        "warheads": "0",
+        "gdp": "$388 Billion",
+        "budget": "$24 Billion",
+        "tier": "Tier 3 - Regional Power"
+    },
+    "PRK": {
+        "name": "North Korea",
+        "activePersonnel": "1,200,000",
+        "reservePersonnel": "600,000",
+        "warheads": "50",
+        "gdp": "$18 Billion",
+        "budget": "$4 Billion",
+        "tier": "Tier 3 - Regional Power (Nuclear)"
+    },
+    "KOR": {
+        "name": "South Korea",
+        "activePersonnel": "555,000",
+        "reservePersonnel": "2,750,000",
+        "warheads": "0",
+        "gdp": "$1.7 Trillion",
+        "budget": "$46 Billion",
+        "tier": "Tier 2 - Major Power"
+    },
+    "UKR": {
+        "name": "Ukraine",
+        "activePersonnel": "900,000",
+        "reservePersonnel": "1,200,000",
+        "warheads": "0",
+        "gdp": "$160 Billion",
+        "budget": "$44 Billion (Wartime)",
+        "tier": "Tier 3 - Regional Power / Wartime Economy"
+    },
+    "PSE": {
+        "name": "Palestine",
+        "activePersonnel": "N/A (Militias)",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$18 Billion",
+        "budget": "Unknown",
+        "tier": "Tier 5 - Non-State / Conflict Economy"
+    },
+    "SDN": {
+        "name": "Sudan",
+        "activePersonnel": "100,000 (SAF)",
+        "reservePersonnel": "100,000 (RSF)",
+        "warheads": "0",
+        "gdp": "$51 Billion",
+        "budget": "Unknown",
+        "tier": "Tier 4 - Developing / Conflict Economy"
+    },
+    "AFG": {
+        "name": "Afghanistan",
+        "activePersonnel": "150,000 (Taliban)",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$14 Billion",
+        "budget": "Unknown",
+        "tier": "Tier 5 - Developing / Conflict Economy"
+    },
+    "SYR": {
+        "name": "Syria",
+        "activePersonnel": "100,000",
+        "reservePersonnel": "50,000",
+        "warheads": "0",
+        "gdp": "$11 Billion",
+        "budget": "Unknown",
+        "tier": "Tier 4 - Conflict Economy"
+    },
+    "YEM": {
+        "name": "Yemen",
+        "activePersonnel": "Unknown",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$21 Billion",
+        "budget": "Unknown",
+        "tier": "Tier 5 - Crisis Economy"
+    },
+    "TWN": {
+        "name": "Taiwan",
+        "activePersonnel": "169,000",
+        "reservePersonnel": "1,650,000",
+        "warheads": "0",
+        "gdp": "$756 Billion",
+        "budget": "$19 Billion",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "DEU": {
+        "name": "Germany",
+        "activePersonnel": "183,000",
+        "reservePersonnel": "30,000",
+        "warheads": "0 (NATO Sharing)",
+        "gdp": "$4.4 Trillion",
+        "budget": "$55 Billion",
+        "tier": "Tier 2 - Major Power"
+    },
+    "JPN": {
+        "name": "Japan",
+        "activePersonnel": "247,000",
+        "reservePersonnel": "56,000",
+        "warheads": "0",
+        "gdp": "$4.2 Trillion",
+        "budget": "$46 Billion",
+        "tier": "Tier 2 - Major Power"
+    },
+    "AFE": {
+        "name": "Africa Eastern and Southern",
+        "activePersonnel": "1.2M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.23 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "AFW": {
+        "name": "Africa Western and Central",
+        "activePersonnel": "532.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.06 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "ARB": {
+        "name": "World Bank Data",
+        "activePersonnel": "3.1M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$3.75 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "CSS": {
+        "name": "World Bank Data",
+        "activePersonnel": "15.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$78.5 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "CEB": {
+        "name": "World Bank Data",
+        "activePersonnel": "525.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.95 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "EAR": {
+        "name": "World Bank Data",
+        "activePersonnel": "11.0M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$14.03 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "EAS": {
+        "name": "World Bank Data",
+        "activePersonnel": "7.9M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$31.27 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "EAP": {
+        "name": "World Bank Data",
+        "activePersonnel": "6.8M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$21.56 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "TEA": {
+        "name": "World Bank Data",
+        "activePersonnel": "5.3M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$21.54 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "EMU": {
+        "name": "World Bank Data",
+        "activePersonnel": "1.5M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$14.49 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "ECS": {
+        "name": "Europe & Central Asia",
+        "activePersonnel": "5.0M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$25.80 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "ECA": {
+        "name": "World Bank Data",
+        "activePersonnel": "1.4M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.82 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "TEC": {
+        "name": "World Bank Data",
+        "activePersonnel": "3.3M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$5.26 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "EUU": {
+        "name": "World Bank Data",
+        "activePersonnel": "1.9M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$17.02 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "FCS": {
+        "name": "World Bank Data",
+        "activePersonnel": "3.3M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.92 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "HPC": {
+        "name": "World Bank Data",
+        "activePersonnel": "1.4M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.00 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "IBD": {
+        "name": "World Bank Data",
+        "activePersonnel": "16.4M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$37.94 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "IBT": {
+        "name": "IDA & IBRD total",
+        "activePersonnel": "20.9M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$41.02 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "IDB": {
+        "name": "World Bank Data",
+        "activePersonnel": "1.4M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.46 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "IDX": {
+        "name": "World Bank Data",
+        "activePersonnel": "3.1M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.62 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "IDA": {
+        "name": "World Bank Data",
+        "activePersonnel": "4.5M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$3.08 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "LTE": {
+        "name": "World Bank Data",
+        "activePersonnel": "9.5M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$28.55 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "LCN": {
+        "name": "Latin America & Caribbean",
+        "activePersonnel": "2.7M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$6.14 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "LAC": {
+        "name": "World Bank Data",
+        "activePersonnel": "2.2M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$5.34 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "TLA": {
+        "name": "World Bank Data",
+        "activePersonnel": "2.7M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$5.85 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "LDC": {
+        "name": "World Bank Data",
+        "activePersonnel": "2.6M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.47 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "LMY": {
+        "name": "World Bank Data",
+        "activePersonnel": "19.9M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$36.97 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "MEA": {
+        "name": "Middle East, North Africa, Afghanistan & Pakistan",
+        "activePersonnel": "4.8M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$5.03 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "MNA": {
+        "name": "World Bank Data",
+        "activePersonnel": "4.2M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$2.16 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "TMN": {
+        "name": "World Bank Data",
+        "activePersonnel": "4.2M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$2.14 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "MIC": {
+        "name": "World Bank Data",
+        "activePersonnel": "17.1M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$36.53 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "NAC": {
+        "name": "World Bank Data",
+        "activePersonnel": "1.5M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$27.80 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "OED": {
+        "name": "World Bank Data",
+        "activePersonnel": "5.9M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$60.59 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "OSS": {
+        "name": "World Bank Data",
+        "activePersonnel": "61.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$181.9 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "PST": {
+        "name": "World Bank Data",
+        "activePersonnel": "4.7M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$56.95 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "PRE": {
+        "name": "World Bank Data",
+        "activePersonnel": "2.0M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.86 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "SST": {
+        "name": "Small states",
+        "activePersonnel": "80.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$270.7 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "SAS": {
+        "name": "World Bank Data",
+        "activePersonnel": "3.7M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$3.93 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "TSA": {
+        "name": "World Bank Data",
+        "activePersonnel": "3.7M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$3.93 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "SSF": {
+        "name": "World Bank Data",
+        "activePersonnel": "1.7M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$2.29 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "SSA": {
+        "name": "Sub-Saharan Africa (excluding high income)",
+        "activePersonnel": "1.6M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$2.17 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "TSS": {
+        "name": "Sub-Saharan Africa (IDA & IBRD countries)",
+        "activePersonnel": "1.7M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$2.29 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "WLD": {
+        "name": "World Bank Data",
+        "activePersonnel": "27.4M",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$102.25 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "ALB": {
+        "name": "Albania",
+        "activePersonnel": "8.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$19.0 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "DZA": {
+        "name": "Algeria",
+        "activePersonnel": "326.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$225.6 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "AGO": {
+        "name": "Angola",
+        "activePersonnel": "117.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$131.2 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "ARG": {
+        "name": "Argentina",
+        "activePersonnel": "103.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$634.0 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "ARM": {
+        "name": "Armenia",
+        "activePersonnel": "47.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$19.5 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "AUS": {
+        "name": "Australia",
+        "activePersonnel": "60.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.70 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "AUT": {
+        "name": "Austria",
+        "activePersonnel": "23.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$473.2 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "AZE": {
+        "name": "Azerbaijan",
+        "activePersonnel": "82.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$78.8 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "BHS": {
+        "name": "Bahamas, The",
+        "activePersonnel": "2.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$13.9 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "BHR": {
+        "name": "Bahrain",
+        "activePersonnel": "19.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$46.5 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "BGD": {
+        "name": "Bangladesh",
+        "activePersonnel": "227.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$460.1 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "BRB": {
+        "name": "Barbados",
+        "activePersonnel": "1.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$6.9 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "BLR": {
+        "name": "Belarus",
+        "activePersonnel": "158.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$73.8 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "BEL": {
+        "name": "Belgium",
+        "activePersonnel": "24.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$591.1 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "BLZ": {
+        "name": "Belize",
+        "activePersonnel": "2.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$2.8 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "BEN": {
+        "name": "Benin",
+        "activePersonnel": "12.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$17.4 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "BOL": {
+        "name": "Bolivia",
+        "activePersonnel": "71.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$51.0 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "BIH": {
+        "name": "Bosnia and Herzegovina",
+        "activePersonnel": "11.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$24.5 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "BWA": {
+        "name": "Botswana",
+        "activePersonnel": "9.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$20.3 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "BRA": {
+        "name": "Brazil",
+        "activePersonnel": "762.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.95 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "BRN": {
+        "name": "Brunei Darussalam",
+        "activePersonnel": "8.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$16.7 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "BGR": {
+        "name": "Bulgaria",
+        "activePersonnel": "37.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$90.5 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "BFA": {
+        "name": "Burkina Faso",
+        "activePersonnel": "11.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$18.6 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "BDI": {
+        "name": "Burundi",
+        "activePersonnel": "31.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$4.0 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "CPV": {
+        "name": "Cabo Verde",
+        "activePersonnel": "1.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$2.2 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "KHM": {
+        "name": "Cambodia",
+        "activePersonnel": "191.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$40.0 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "CMR": {
+        "name": "Cameroon",
+        "activePersonnel": "34.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$44.3 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "CAN": {
+        "name": "Canada",
+        "activePersonnel": "72.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$2.19 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "CAF": {
+        "name": "Central African Republic",
+        "activePersonnel": "10.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$2.4 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "TCD": {
+        "name": "Chad",
+        "activePersonnel": "45.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$17.8 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "CHL": {
+        "name": "Chile",
+        "activePersonnel": "114.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$301.2 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "COL": {
+        "name": "Colombia",
+        "activePersonnel": "428.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$345.6 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "COD": {
+        "name": "Congo, Dem. Rep.",
+        "activePersonnel": "134.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$70.4 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "COG": {
+        "name": "Congo, Rep.",
+        "activePersonnel": "12.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$15.8 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "CRI": {
+        "name": "Costa Rica",
+        "activePersonnel": "10.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$69.2 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "CIV": {
+        "name": "Cote d'Ivoire",
+        "activePersonnel": "27.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$70.9 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "HRV": {
+        "name": "Croatia",
+        "activePersonnel": "20.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$71.2 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "CUB": {
+        "name": "Cuba",
+        "activePersonnel": "76.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "Data Unavailable",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "CYP": {
+        "name": "Cyprus",
+        "activePersonnel": "13.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$31.2 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "CZE": {
+        "name": "Czechia",
+        "activePersonnel": "27.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$301.8 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "DNK": {
+        "name": "Denmark",
+        "activePersonnel": "15.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$400.1 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "DJI": {
+        "name": "Djibouti",
+        "activePersonnel": "13.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$3.6 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "DOM": {
+        "name": "Dominican Republic",
+        "activePersonnel": "71.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$113.5 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "ECU": {
+        "name": "Ecuador",
+        "activePersonnel": "42.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$116.1 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "EGY": {
+        "name": "Egypt, Arab Rep.",
+        "activePersonnel": "836.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$476.7 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "SLV": {
+        "name": "El Salvador",
+        "activePersonnel": "42.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$31.9 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "GNQ": {
+        "name": "Equatorial Guinea",
+        "activePersonnel": "1.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$13.7 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "ERI": {
+        "name": "Eritrea",
+        "activePersonnel": "202.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "Data Unavailable",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "EST": {
+        "name": "Estonia",
+        "activePersonnel": "7.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$38.2 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "ETH": {
+        "name": "Ethiopia",
+        "activePersonnel": "138.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$123.1 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "FJI": {
+        "name": "Fiji",
+        "activePersonnel": "4.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$5.0 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "FIN": {
+        "name": "Finland",
+        "activePersonnel": "22.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$280.3 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "GAB": {
+        "name": "Gabon",
+        "activePersonnel": "7.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$20.4 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "GMB": {
+        "name": "Gambia, The",
+        "activePersonnel": "4.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$2.2 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "GEO": {
+        "name": "Georgia",
+        "activePersonnel": "26.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$25.0 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "GHA": {
+        "name": "Ghana",
+        "activePersonnel": "16.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$73.9 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "GRC": {
+        "name": "Greece",
+        "activePersonnel": "147.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$218.0 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "GTM": {
+        "name": "Guatemala",
+        "activePersonnel": "43.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$95.6 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "GIN": {
+        "name": "Guinea",
+        "activePersonnel": "13.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$19.9 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "GNB": {
+        "name": "Guinea-Bissau",
+        "activePersonnel": "4.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.9 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "GUY": {
+        "name": "Guyana",
+        "activePersonnel": "3.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$14.7 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "HTI": {
+        "name": "Haiti",
+        "activePersonnel": "1.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$20.3 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "HND": {
+        "name": "Honduras",
+        "activePersonnel": "23.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$31.4 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "HUN": {
+        "name": "Hungary",
+        "activePersonnel": "46.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$177.0 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "IDN": {
+        "name": "Indonesia",
+        "activePersonnel": "676.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.32 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "IRQ": {
+        "name": "Iraq",
+        "activePersonnel": "459.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$287.4 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "IRL": {
+        "name": "Ireland",
+        "activePersonnel": "9.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$548.3 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "ITA": {
+        "name": "Italy",
+        "activePersonnel": "338.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$2.10 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "JAM": {
+        "name": "Jamaica",
+        "activePersonnel": "6.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$18.8 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "JOR": {
+        "name": "Jordan",
+        "activePersonnel": "116.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$48.8 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "KAZ": {
+        "name": "Kazakhstan",
+        "activePersonnel": "71.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$225.5 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "KEN": {
+        "name": "Kenya",
+        "activePersonnel": "24.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$114.4 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "KWT": {
+        "name": "Kuwait",
+        "activePersonnel": "25.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$183.5 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "KGZ": {
+        "name": "Kyrgyz Republic",
+        "activePersonnel": "21.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$12.1 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "LAO": {
+        "name": "Lao PDR",
+        "activePersonnel": "129.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$15.5 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "LVA": {
+        "name": "Latvia",
+        "activePersonnel": "9.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$38.0 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "LBN": {
+        "name": "Lebanon",
+        "activePersonnel": "80.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$21.0 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "LSO": {
+        "name": "Lesotho",
+        "activePersonnel": "2.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$2.4 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "LBR": {
+        "name": "Liberia",
+        "activePersonnel": "2.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$4.0 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "LTU": {
+        "name": "Lithuania",
+        "activePersonnel": "37.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$71.0 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "LUX": {
+        "name": "Luxembourg",
+        "activePersonnel": "1.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$80.8 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "MDG": {
+        "name": "Madagascar",
+        "activePersonnel": "22.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$15.3 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "MWI": {
+        "name": "Malawi",
+        "activePersonnel": "15.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$12.4 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "MYS": {
+        "name": "Malaysia",
+        "activePersonnel": "136.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$407.8 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "MLI": {
+        "name": "Mali",
+        "activePersonnel": "41.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$22.5 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "MLT": {
+        "name": "Malta",
+        "activePersonnel": "2.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$18.9 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "MRT": {
+        "name": "Mauritania",
+        "activePersonnel": "21.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$9.6 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "MUS": {
+        "name": "Mauritius",
+        "activePersonnel": "3.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$12.9 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "MEX": {
+        "name": "Mexico",
+        "activePersonnel": "341.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.47 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "MDA": {
+        "name": "Moldova",
+        "activePersonnel": "6.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$14.5 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "MNG": {
+        "name": "Mongolia",
+        "activePersonnel": "18.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$17.1 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "MNE": {
+        "name": "Montenegro",
+        "activePersonnel": "12.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$6.3 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "MAR": {
+        "name": "Morocco",
+        "activePersonnel": "246.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$131.2 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "MOZ": {
+        "name": "Mozambique",
+        "activePersonnel": "11.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$18.9 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "MMR": {
+        "name": "Myanmar",
+        "activePersonnel": "463.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$62.3 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "NAM": {
+        "name": "Namibia",
+        "activePersonnel": "16.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$12.6 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "NPL": {
+        "name": "Nepal",
+        "activePersonnel": "112.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$41.2 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "NLD": {
+        "name": "Netherlands",
+        "activePersonnel": "41.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.05 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "NZL": {
+        "name": "New Zealand",
+        "activePersonnel": "10.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$249.5 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "NIC": {
+        "name": "Nicaragua",
+        "activePersonnel": "12.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$15.6 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "NER": {
+        "name": "Niger",
+        "activePersonnel": "10.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$15.4 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "NGA": {
+        "name": "Nigeria",
+        "activePersonnel": "223.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$647.0 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "MKD": {
+        "name": "North Macedonia",
+        "activePersonnel": "16.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$13.9 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "NOR": {
+        "name": "Norway",
+        "activePersonnel": "25.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$596.3 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "OMN": {
+        "name": "Oman",
+        "activePersonnel": "47.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$109.9 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "PAN": {
+        "name": "Panama",
+        "activePersonnel": "28.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$76.5 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "PNG": {
+        "name": "Papua New Guinea",
+        "activePersonnel": "4.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$31.7 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "PRY": {
+        "name": "Paraguay",
+        "activePersonnel": "29.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$42.0 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "PER": {
+        "name": "Peru",
+        "activePersonnel": "158.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$246.1 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "PHL": {
+        "name": "Philippines",
+        "activePersonnel": "157.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$404.4 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "POL": {
+        "name": "Poland",
+        "activePersonnel": "189.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$695.6 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "PRT": {
+        "name": "Portugal",
+        "activePersonnel": "52.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$256.9 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "QAT": {
+        "name": "Qatar",
+        "activePersonnel": "22.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$235.7 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "ROU": {
+        "name": "Romania",
+        "activePersonnel": "128.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$295.3 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "RWA": {
+        "name": "Rwanda",
+        "activePersonnel": "35.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$13.3 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "SAU": {
+        "name": "Saudi Arabia",
+        "activePersonnel": "282.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.24 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "SEN": {
+        "name": "Senegal",
+        "activePersonnel": "19.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$27.8 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "SRB": {
+        "name": "Serbia",
+        "activePersonnel": "32.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$66.8 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "SLE": {
+        "name": "Sierra Leone",
+        "activePersonnel": "9.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$7.1 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "SGP": {
+        "name": "Singapore",
+        "activePersonnel": "59.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$509.0 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "SVK": {
+        "name": "Slovak Republic",
+        "activePersonnel": "18.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$115.8 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "SVN": {
+        "name": "Slovenia",
+        "activePersonnel": "7.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$59.9 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "SOM": {
+        "name": "Somalia, Fed. Rep.",
+        "activePersonnel": "14.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$10.2 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "ZAF": {
+        "name": "South Africa",
+        "activePersonnel": "89.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$407.6 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "SSD": {
+        "name": "South Sudan",
+        "activePersonnel": "53.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "Data Unavailable",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "ESP": {
+        "name": "Spain",
+        "activePersonnel": "199.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.45 Trillion",
+        "budget": "N/A",
+        "tier": "Tier 2 - Advanced Economy"
+    },
+    "LKA": {
+        "name": "Sri Lanka",
+        "activePersonnel": "317.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$74.1 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "SUR": {
+        "name": "Suriname",
+        "activePersonnel": "2.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$3.8 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "SWE": {
+        "name": "Sweden",
+        "activePersonnel": "15.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$575.1 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "CHE": {
+        "name": "Switzerland",
+        "activePersonnel": "20.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$828.5 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "TJK": {
+        "name": "Tajikistan",
+        "activePersonnel": "17.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$10.7 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "TZA": {
+        "name": "Tanzania",
+        "activePersonnel": "28.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$75.7 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "THA": {
+        "name": "Thailand",
+        "activePersonnel": "455.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$495.6 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "TLS": {
+        "name": "Timor-Leste",
+        "activePersonnel": "2.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$3.2 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "TGO": {
+        "name": "Togo",
+        "activePersonnel": "10.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$8.6 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "TTO": {
+        "name": "Trinidad and Tobago",
+        "activePersonnel": "5.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$28.3 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "TUN": {
+        "name": "Tunisia",
+        "activePersonnel": "48.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$44.9 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "TUR": {
+        "name": "Turkiye",
+        "activePersonnel": "512.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$926.1 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "TKM": {
+        "name": "Turkmenistan",
+        "activePersonnel": "57.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$42.2 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "UGA": {
+        "name": "Uganda",
+        "activePersonnel": "46.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$45.6 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "ARE": {
+        "name": "United Arab Emirates",
+        "activePersonnel": "63.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$511.4 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "URY": {
+        "name": "Uruguay",
+        "activePersonnel": "22.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$70.6 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "UZB": {
+        "name": "Uzbekistan",
+        "activePersonnel": "68.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$90.1 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "VEN": {
+        "name": "Venezuela, RB",
+        "activePersonnel": "343.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$89.0 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "VNM": {
+        "name": "Viet Nam",
+        "activePersonnel": "522.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$413.4 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "ZMB": {
+        "name": "Zambia",
+        "activePersonnel": "16.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$29.2 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "ZWE": {
+        "name": "Zimbabwe",
+        "activePersonnel": "51.0K",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$40.8 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "PSS": {
+        "name": "World Bank Data",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$10.4 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "ASM": {
+        "name": "American Samoa",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$871.0 Million",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "AND": {
+        "name": "Andorra",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$3.4 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "ATG": {
+        "name": "Antigua and Barbuda",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.9 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "ABW": {
+        "name": "Aruba",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$3.3 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "BMU": {
+        "name": "Bermuda",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$7.9 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "BTN": {
+        "name": "Bhutan",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$2.9 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "CYM": {
+        "name": "Cayman Islands",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$6.7 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "CHI": {
+        "name": "Channel Islands",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$11.3 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "COM": {
+        "name": "Comoros",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.2 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "CUW": {
+        "name": "Curacao",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$3.1 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "DMA": {
+        "name": "Dominica",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$623.1 Million",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "SWZ": {
+        "name": "Eswatini",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$4.7 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "FRO": {
+        "name": "Faroe Islands",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$3.6 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "PYF": {
+        "name": "French Polynesia",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$5.6 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "GRL": {
+        "name": "Greenland",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$3.2 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "GRD": {
+        "name": "Grenada",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.2 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "GUM": {
+        "name": "Guam",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$6.9 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "HKG": {
+        "name": "Hong Kong SAR, China",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$358.7 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "ISL": {
+        "name": "Iceland",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$29.2 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "IMN": {
+        "name": "Isle of Man",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$7.4 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "KIR": {
+        "name": "Kiribati",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$270.0 Million",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "XKX": {
+        "name": "Kosovo",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$9.4 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "LBY": {
+        "name": "Libya",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$43.2 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "LIE": {
+        "name": "Liechtenstein",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$7.4 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "MAC": {
+        "name": "Macao SAR, China",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$24.9 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "MDV": {
+        "name": "Maldives",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$6.2 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "MHL": {
+        "name": "Marshall Islands",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$258.7 Million",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "FSM": {
+        "name": "Micronesia, Fed. Sts.",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$416.0 Million",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "MCO": {
+        "name": "Monaco",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$8.8 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "NRU": {
+        "name": "Nauru",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$152.4 Million",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "NCL": {
+        "name": "New Caledonia",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$9.6 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "MNP": {
+        "name": "Northern Mariana Islands",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.1 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "PLW": {
+        "name": "Palau",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$243.8 Million",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "PRI": {
+        "name": "Puerto Rico (US)",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$113.8 Billion",
+        "budget": "N/A",
+        "tier": "Tier 3 - Regional Economy"
+    },
+    "WSM": {
+        "name": "Samoa",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$889.6 Million",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "SMR": {
+        "name": "San Marino",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.8 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "STP": {
+        "name": "Sao Tome and Principe",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$540.8 Million",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "SYC": {
+        "name": "Seychelles",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$2.0 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "SXM": {
+        "name": "Sint Maarten (Dutch part)",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.6 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "SLB": {
+        "name": "Solomon Islands",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.5 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "KNA": {
+        "name": "St. Kitts and Nevis",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$981.4 Million",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "LCA": {
+        "name": "St. Lucia",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$2.3 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "VCT": {
+        "name": "St. Vincent and the Grenadines",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$989.2 Million",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "TON": {
+        "name": "Tonga",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$556.5 Million",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "TCA": {
+        "name": "Turks and Caicos Islands",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.4 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "TUV": {
+        "name": "Tuvalu",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$59.1 Million",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "VUT": {
+        "name": "Vanuatu",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$1.1 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    },
+    "VIR": {
+        "name": "Virgin Islands (U.S.)",
+        "activePersonnel": "Data Unavailable",
+        "reservePersonnel": "Unknown",
+        "warheads": "0",
+        "gdp": "$4.7 Billion",
+        "budget": "N/A",
+        "tier": "Tier 4 - Developing Economy"
+    }
+}
