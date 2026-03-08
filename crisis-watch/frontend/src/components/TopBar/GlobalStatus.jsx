@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ThreatBadge from '../shared/ThreatBadge';
 
-export default function GlobalStatus({ threatLevel, onOpenSettings, onOpenComparison }) {
+export default function GlobalStatus({ threatLevel, onOpenSettings, onOpenComparison, onOpenAbout }) {
     const [utcTime, setUtcTime] = useState('');
 
     useEffect(() => {
@@ -55,6 +55,15 @@ export default function GlobalStatus({ threatLevel, onOpenSettings, onOpenCompar
 
             {/* Right */}
             <div className="flex items-center gap-2">
+                <button
+                    onClick={onOpenAbout}
+                    className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-[var(--color-bg-primary)] border border-[var(--color-border)] hover:border-[#00b4ff] transition-colors text-[var(--color-text-secondary)] hover:text-[#00b4ff] group"
+                    title="About WarInfo"
+                    id="about-button"
+                >
+                    <span className="text-sm">ℹ️</span>
+                    <span className="hidden sm:inline text-[11px] font-bold uppercase tracking-wider">About</span>
+                </button>
                 <button
                     onClick={onOpenComparison}
                     className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-[var(--color-bg-primary)] border border-[var(--color-border)] hover:border-[var(--color-accent)] transition-colors text-[var(--color-text-secondary)] hover:text-[var(--color-accent)] group"
