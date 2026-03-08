@@ -37,10 +37,11 @@ export default function App() {
     const [selectedCountry, setSelectedCountry] = useState('All');
     const [showSettings, setShowSettings] = useState(false);
     const [showComparison, setShowComparison] = useState(false);
+    const [showAbout, setShowAbout] = useState(false);
     const [mobilePanel, setMobilePanel] = useState(null);
     const [settings, setSettings] = useState(() => {
         const saved = localStorage.getItem('warinfo_settings');
-        return saved ? JSON.parse(saved) : { refreshRate: 120, language: 'en' };
+        return saved ? JSON.parse(saved) : { notificationsAlerts: true, hardwareAcceleration: true };
     });
     const [layers, setLayers] = useState({
         strikes: true,
@@ -374,6 +375,48 @@ export default function App() {
                     </div>
                 </div>
             )}
+
+            {/* Developer About Modal */}
+            {showAbout && (
+                <div className="fixed inset-0 z-[10000] flex items-center justify-center bg-black/80 backdrop-blur-sm p-4 fade-in">
+                    <div className="bg-[var(--color-bg-panel)] border border-[var(--color-border)] rounded-2xl w-full max-w-md shadow-2xl flex flex-col overflow-hidden relative">
+                        <div className="flex items-center justify-between p-4 border-b border-[var(--color-border)] bg-[var(--color-bg-card)]">
+                            <h2 className="text-lg font-bold text-[var(--color-text-primary)] tracking-wide">About WarInfo</h2>
+                            <button onClick={() => setShowAbout(false)} className="p-2 hover:bg-[var(--color-border)] rounded-full transition-colors text-xl">✕</button>
+                        </div>
+                        <div className="p-6 space-y-4">
+                            <div className="flex flex-col items-center justify-center space-y-2 mb-6">
+                                <div className="w-16 h-16 rounded-full bg-[var(--color-bg-primary)] border-2 border-[#00b4ff] flex items-center justify-center text-2xl shadow-[0_0_15px_rgba(0,180,255,0.3)]">👨‍💻</div>
+                                <h3 className="text-xl font-bold text-[var(--color-text-primary)]">Himanshu Tokekar</h3>
+                                <p className="text-xs font-bold text-[#00b4ff] uppercase tracking-widest">Fergusson College</p>
+                            </div>
+                            <p className="text-sm text-[var(--color-text-secondary)] leading-relaxed text-center">
+                                WarInfo is a real-time global conflict monitor developed to aggregate and visualize critical humanitarian and tactical intelligence.
+                            </p>
+                            <div className="text-center pt-4 border-t border-[var(--color-border)]">
+                                <p className="text-[10px] text-[var(--color-text-dim)] uppercase tracking-widest">
+                                    All Rights Reserved © 2026<br />Developed for Educational / Portfolio Purposes
+                                </p>
+                            </div>
+                        </div>
+                        <div className="p-4 bg-[var(--color-bg-primary)] border-t border-[var(--color-border)] flex justify-center">
+                            <a href="https://github.com/himanshuT7-dev" target="_blank" rel="noopener noreferrer" className="text-xs text-[#00b4ff] hover:underline font-bold">Visit GitHub Profile</a>
+                        </div>
+                    </div>
+                </div>
+            )}
+
+            {/* Persistent Developer Watermark */}
+            <div
+                className="fixed bottom-3 right-3 lg:bottom-4 lg:right-4 z-[9999] opacity-40 hover:opacity-100 transition-opacity cursor-pointer group flex flex-col items-end"
+                onClick={() => setShowAbout(true)}
+            >
+                <div className="text-[9px] lg:text-[10px] uppercase font-bold text-[var(--color-text-dim)] group-hover:text-[#00b4ff] tracking-widest bg-black/50 px-2 py-1 rounded backdrop-blur-md border border-transparent group-hover:border-[#00b4ff]/30 transition-colors pointer-events-auto">
+                    Developed by Himanshu Tokekar
+                </div>
+                <div className="text-[8px] text-[var(--color-text-dim)]/50 pr-1 mt-0.5">Fergusson College</div>
+            </div>
+
             <CountryComparisonModal
                 isOpen={showComparison}
                 onClose={() => setShowComparison(false)}
