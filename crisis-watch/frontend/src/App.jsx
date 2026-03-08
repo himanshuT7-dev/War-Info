@@ -388,7 +388,7 @@ export default function App() {
                             <div className="flex flex-col items-center justify-center space-y-2 mb-6">
                                 <div className="w-16 h-16 rounded-full bg-[var(--color-bg-primary)] border-2 border-[#00b4ff] flex items-center justify-center text-2xl shadow-[0_0_15px_rgba(0,180,255,0.3)]">👨‍💻</div>
                                 <h3 className="text-xl font-bold text-[var(--color-text-primary)]">Himanshu Tokekar</h3>
-                                <p className="text-xs font-bold text-[#00b4ff] uppercase tracking-widest">Fergusson College</p>
+                                <p className="text-xs font-bold text-[#00b4ff] uppercase tracking-widest">Student at Fergusson College</p>
                             </div>
                             <p className="text-sm text-[var(--color-text-secondary)] leading-relaxed text-center">
                                 WarInfo is a real-time global conflict monitor developed to aggregate and visualize critical humanitarian and tactical intelligence.
@@ -414,7 +414,6 @@ export default function App() {
                 <div className="text-[9px] lg:text-[10px] uppercase font-bold text-[var(--color-text-dim)] group-hover:text-[#00b4ff] tracking-widest bg-black/50 px-2 py-1 rounded backdrop-blur-md border border-transparent group-hover:border-[#00b4ff]/30 transition-colors pointer-events-auto">
                     Developed by Himanshu Tokekar
                 </div>
-                <div className="text-[8px] text-[var(--color-text-dim)]/50 pr-1 mt-0.5">Fergusson College</div>
             </div>
 
             <CountryComparisonModal
