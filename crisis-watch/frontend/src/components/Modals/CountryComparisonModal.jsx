@@ -51,6 +51,7 @@ export default function CountryComparisonModal({ isOpen, onClose }) {
     if (!isOpen) return null;
 
     const countriesList = Object.entries(countryStats)
+        .filter(([code, stats]) => stats.name && stats.name !== 'World Bank Data')
         .map(([code, stats]) => ({ code, name: stats.name || code }))
         .sort((a, b) => a.name.localeCompare(b.name));
 
