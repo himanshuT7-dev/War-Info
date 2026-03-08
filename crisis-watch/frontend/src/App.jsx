@@ -407,9 +407,9 @@ export default function App() {
                 </div>
             )}
 
-            {/* Persistent Developer Watermark (Desktop Only) */}
+            {/* Persistent Developer Watermark */}
             <div
-                className="hidden lg:flex fixed bottom-4 right-4 z-[9999] opacity-40 hover:opacity-100 transition-opacity cursor-pointer group flex-col items-end"
+                className="flex fixed bottom-[80px] lg:bottom-4 right-3 lg:right-4 z-[9999] opacity-40 hover:opacity-100 transition-opacity cursor-pointer group flex-col items-end"
                 onClick={() => setShowAbout(true)}
             >
                 <div className="text-[9px] lg:text-[10px] uppercase font-bold text-[var(--color-text-dim)] group-hover:text-[#00b4ff] tracking-widest bg-black/50 px-2 py-1 rounded backdrop-blur-md border border-transparent group-hover:border-[#00b4ff]/30 transition-colors pointer-events-auto">
