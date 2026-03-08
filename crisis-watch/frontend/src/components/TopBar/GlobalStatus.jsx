@@ -61,7 +61,9 @@ export default function GlobalStatus({ threatLevel, onOpenSettings, onOpenCompar
                     title="About WarInfo"
                     id="about-button"
                 >
-                    <span className="text-sm">ℹ️</span>
+                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
                     <span className="hidden sm:inline text-[11px] font-bold uppercase tracking-wider">About</span>
                 </button>
                 <button
@@ -70,7 +72,9 @@ export default function GlobalStatus({ threatLevel, onOpenSettings, onOpenCompar
                     title="Compare Countries"
                     id="compare-button"
                 >
-                    <span className="text-sm">⚖️</span>
+                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
+                    </svg>
                     <span className="hidden sm:inline text-[11px] font-bold uppercase tracking-wider">Compare</span>
                 </button>
                 <button
