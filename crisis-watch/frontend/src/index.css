@@ -370,3 +370,10 @@ body,
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(8px);
 }
+
+/* Ensure map legend isn't hidden by bottom nav on mobile */
+@media (max-width: 768px) {
+  .map-legend {
+    bottom: calc(70px + env(safe-area-inset-bottom)) !important;
+  }
+}
