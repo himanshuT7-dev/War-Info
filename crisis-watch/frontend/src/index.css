@@ -377,3 +377,36 @@ body,
     bottom: calc(70px + env(safe-area-inset-bottom)) !important;
   }
 }
+
+/* ── Tension Arcs ── */
+.tension-arc {
+  animation: tension-dash 20s linear infinite;
+  filter: drop-shadow(0 0 4px rgba(255, 43, 43, 0.4));
+}
+
+@keyframes tension-dash {
+  to {
+    stroke-dashoffset: -100;
+  }
+}
+
+.tension-node {
+  animation: tension-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes tension-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.5);
+    opacity: 0.3;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

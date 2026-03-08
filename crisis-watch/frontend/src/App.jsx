@@ -49,7 +49,8 @@ export default function App() {
         shelters: true,
         flights: false,
         heatmap: false,
-        cyber: true
+        cyber: true,
+        tensions: true
     });
 
     const region = REGIONS[selectedRegion] || REGIONS.global;
@@ -126,7 +127,8 @@ export default function App() {
         { key: 'shelters', label: '🟢 Shelters', active: layers.shelters },
         { key: 'flights', label: '✈️ Flights', active: layers.flights },
         { key: 'heatmap', label: '🔥 Heatmap', active: layers.heatmap },
-        { key: 'cyber', label: '🔌 Cyber', active: layers.cyber }
+        { key: 'cyber', label: '🔌 Cyber', active: layers.cyber },
+        { key: 'tensions', label: '⚡ Tensions', active: layers.tensions }
     ];
 
     return (

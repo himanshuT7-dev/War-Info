@@ -7,6 +7,7 @@ import FlightLayer from './FlightLayer';
 import CountryHistoryLayer from './CountryHistoryLayer';
 import HeatmapLayer from './HeatmapLayer';
 import CyberLayer from './CyberLayer';
+import TensionLayer from './TensionLayer';
 
 function MapUpdater({ center, zoom }) {
     const map = useMap();
@@ -139,6 +140,12 @@ export default function CrisisMap({
                         visible={layers.flights !== false}
                         isGlobal={region?.name === 'Global'}
                     />
+                )}
+                {layers.cyber !== false && (
+                    <CyberLayer events={cyberEvents} visible={layers.cyber !== false} />
+                )}
+                {layers.tensions !== false && (
+                    <TensionLayer visible={layers.tensions !== false} />
                 )}
             </MapContainer>
 
