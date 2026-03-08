@@ -8,7 +8,10 @@ const FLASHPOINTS = [
     { id: 'iran-israel', name: 'Middle East Turmoil', positions: [[35.6892, 51.3890], [31.7683, 35.2137]], color: '#ff2b2b', status: 'Critical' },
     { id: 'russia-nato', name: 'Eastern Europe / NATO', positions: [[55.7558, 37.6173], [52.2297, 21.0122]], color: '#ff7b00', status: 'High' },
     { id: 'sudan', name: 'Sudan Conflict', positions: [[15.5007, 32.5599], [12.7909, 24.3820]], color: '#ff2b2b', status: 'Active' },
-    { id: 'myanmar', name: 'Myanmar Turmoil', positions: [[19.7633, 96.0785], [21.9162, 95.9560]], color: '#ff7b00', status: 'High' }
+    { id: 'myanmar', name: 'Myanmar Turmoil', positions: [[19.7633, 96.0785], [21.9162, 95.9560]], color: '#ff7b00', status: 'High' },
+    { id: 'iran-pak', name: 'Iran-Pakistan Border Strikes', positions: [[35.6892, 51.3890], [30.1798, 66.9750]], color: '#ff2b2b', status: 'Critical' },
+    { id: 'iran-iraq', name: 'Iran-Iraq (Erbil) Strikes', positions: [[35.6892, 51.3890], [36.1901, 44.0090]], color: '#ff7b00', status: 'High' },
+    { id: 'iran-syria', name: 'Iran-Syria Strikes', positions: [[35.6892, 51.3890], [35.9306, 36.6339]], color: '#ff7b00', status: 'High' }
 ];
 
 export default function TensionLayer() {
